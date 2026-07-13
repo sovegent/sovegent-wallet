@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🛡️ Sovegent Wallet
+<img src=".github/sovegent-shield.svg" width="88" alt="Sovegent" />
+
+# Sovegent Wallet
 
 **Hold your keys. Control your assets.**
 

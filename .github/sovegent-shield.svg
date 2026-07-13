@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="248" viewBox="0 0 200 248">
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f6fbf"/>
+      <stop offset="0.5" stop-color="#1c4e93"/>
+      <stop offset="1" stop-color="#10305f"/>
+    </linearGradient>
+    <radialGradient id="sp" cx="36%" cy="30%" r="78%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#d8ecff"/>
+      <stop offset="1" stop-color="#7cb8ff"/>
+    </radialGradient>
+    <radialGradient id="ish" cx="50%" cy="18%" r="70%">
+      <stop offset="0" stop-color="#5aa9ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5aa9ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- shield body -->
+  <path d="M100 8 L182 42 Q186 44 186 50 L186 116 C186 178 150 214 100 240 C50 214 14 178 14 116 L14 50 Q14 44 18 42 Z"
+        fill="url(#shield)" stroke="#7cb8ff" stroke-width="3.5"/>
+  <path d="M100 8 L182 42 Q186 44 186 50 L186 116 C186 178 150 214 100 240 C50 214 14 178 14 116 L14 50 Q14 44 18 42 Z"
+        fill="url(#ish)"/>
+
+  <!-- dot-matrix S, centered inside -->
+  <g transform="translate(47,52) scale(0.55)" fill="url(#sp)" filter="url(#g)">
+    <circle cx="62" cy="24" r="13"/><circle cx="96" cy="24" r="13"/><circle cx="130" cy="24" r="13"/><circle cx="164" cy="24" r="13"/>
+    <circle cx="28" cy="58" r="13"/><circle cx="62" cy="58" r="13"/>
+    <circle cx="28" cy="92" r="13"/>
+    <circle cx="62" cy="126" r="13"/><circle cx="96" cy="126" r="13"/><circle cx="130" cy="126" r="13"/>
+    <circle cx="130" cy="160" r="13"/><circle cx="164" cy="160" r="13"/>
+    <circle cx="164" cy="194" r="13"/>
+    <circle cx="28" cy="228" r="13"/><circle cx="62" cy="228" r="13"/><circle cx="96" cy="228" r="13"/><circle cx="130" cy="228" r="13"/>
+  </g>
+</svg>
