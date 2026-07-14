@@ -30,7 +30,7 @@
     "qrcode": "^1.5.4",
     "vite-plugin-top-level-await": "^1.6.0",
     "vite-plugin-wasm": "^3.6.0",
-    "zustand": "^4.5.0"
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.268",
